@@ -6,6 +6,7 @@ pd.options.mode.chained_assignment = None
 
 st.title("Indicador RSI")
 st.subheader("Vamos usar o indicador RSI para ver sinal de compra ou venda de ação")
+st.subheader("Você pode consultar o ticker em https://finance.yahoo.com/")
 st.write("ATENÇÃO: Isso é um treino de programação, não deve ser usado como indicação de investimento!!!")
 
 # Usuário insere o ticker da ação
@@ -68,3 +69,4 @@ if st.button('Sinal de venda'):
         st.write(f"{ticker}, Data: {data_ultima_linha}, Sinal de venda: {sinal_venda}")
     else:
         st.error("Dados não carregados ou ticker inválido.")
+        
