@@ -6,7 +6,7 @@ pd.options.mode.chained_assignment = None
 
 st.title("Indicador RSI")
 st.subheader("Vamos usar o indicador RSI para ver sinal de compra ou venda de ação")
-st.subheader("Você pode consultar o ticker em https://finance.yahoo.com/")
+st.write("Você pode consultar o ticker em https://finance.yahoo.com/")
 st.write("ATENÇÃO: Isso é um treino de programação, não deve ser usado como indicação de investimento!!!")
 
 # Usuário insere o ticker da ação
