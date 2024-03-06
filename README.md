@@ -8,3 +8,4 @@ A mase de cálculo usada nesse RSI é a média dos ultimos 22 dias
 
 O programa indicará compra de o RSI for menor que 30 e venda se for maior que 70
  
+https://rsiacoes.streamlit.app/
